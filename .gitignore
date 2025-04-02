@@ -1,0 +1,43 @@
+# Игнорируем все файлы в корне проекта
+/*
+
+# Но не игнорируем папку 2comp
+!/2comp
+
+# Игнорируем папку data
+/2comp/data/
+/2comp/effects/data/
+/2comp/SB results/data/
+
+/2comp/choose_cities/
+/2comp/MEP-1655/
+/2comp/MEP-1656/
+/2comp/SB results/bogota_pics/
+
+# Игнорируем .DS_Store файлы (Mac)
+.DS_Store
+
+# Игнорируем стандартные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints 
