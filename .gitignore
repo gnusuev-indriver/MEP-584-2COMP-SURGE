@@ -4,14 +4,14 @@
 # Но не игнорируем папку 2comp
 !/2comp
 
+# Но не игнорируем .gitignore
+!.gitignore
+
 # Игнорируем папку data
 /2comp/data/
 /2comp/effects/data/
 /2comp/SB results/data/
 
-/2comp/choose_cities/
-/2comp/MEP-1655/
-/2comp/MEP-1656/
 /2comp/SB results/bogota_pics/
 
 # Игнорируем .DS_Store файлы (Mac)
@@ -40,4 +40,24 @@ var/
 *.egg
 
 # Jupyter Notebook
-.ipynb_checkpoints 
+.ipynb_checkpoints
+
+# Игнорируем временные и служебные файлы
+confluence.md
+scratch.ipynb
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# IDE файлы
+.vscode/
+.idea/
+*.iml
+
+# Временные файлы операционной системы
+Thumbs.db
+.DS_Store
+*.desktop.ini 
