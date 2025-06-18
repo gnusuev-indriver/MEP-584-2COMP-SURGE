@@ -45,12 +45,51 @@ var/
 # Игнорируем временные и служебные файлы
 confluence.md
 scratch.ipynb
+scratch.ipy.nb
 *.tmp
 *.temp
 *.log
 *.bak
 *.swp
 *~
+
+# Архивные файлы
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.gz
+*.bz2
+*.xz
+*.Z
+
+# Изображения
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.ico
+*.webp
+
+# Документы и презентации
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# HTML и веб-файлы
+*.html
+*.htm
 
 # IDE файлы
 .vscode/
